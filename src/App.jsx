@@ -3,13 +3,13 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import Contact from './pages/Contact';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <Router>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/connexion' element={<Login />} />
