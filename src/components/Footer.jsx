@@ -1,6 +1,17 @@
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <div>
+        <img src="./logo.png" alt="logo chat" />
+      </div>
+      <div>
+        <ul>
+          <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Google</li>
+        </ul>
+      </div>
+    </footer>
   )
 }
